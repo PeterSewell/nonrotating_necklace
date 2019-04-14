@@ -1,9 +1,9 @@
-# Non-rotating Necklace
+# Non-rotating necklace
 
 <p>
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5264.JPG?raw=true" width="250">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5267.JPG?raw=true" width="250">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5261.optimised.gif?raw=true" width="250">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5264.JPG?raw=true" height="250">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5267.JPG?raw=true" height="250">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5261.optimised.gif?raw=true" height="250">
 </p>
 
 
