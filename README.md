@@ -36,9 +36,9 @@ The first three are wired up so they fold into a tight package (insulated with t
 
 and then that and the battery are cable-tied to the necklace structure:
 <p>
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5244.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5245.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5248.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5244.JPG?raw=true" width="250">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5245.JPG?raw=true" width="250">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5248.JPG?raw=true" width="250">
 </p>
 See the [connections](./connections.md).
 
