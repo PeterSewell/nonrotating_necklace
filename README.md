@@ -7,6 +7,20 @@
 </p>
 
 
+## What is it?
+
+This <em>non-rotating necklace</em> uses sensors to determine its orientation with respect to magnetic North and illuminates four coloured blobs (on a circular LED strip) at the four cardinal points: North, East, South, and West.  
+The coloured blobs thus stay more-or-less stable as the wearer rotates - contrary to one's usual expectation that the two would rotate together. 
+
+Additionally: 
+- the coloured blobs slowly change colour, each following a random walk in colour space;
+- their intensity is scaled with the wearer's rotation speed, becoming brighter if they spin;
+- each blob is actually a (mild) colour gradient, not a uniform colour, and the direction of the gradient flips depending on whether the wearer is rotating clockwise or anticlockwise;
+- the sensor data and reconstructed angle can be sent by short-range radio to a receiver, to be displayed live or recorded on a laptop. 
+
+
+
+
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5212.JPG?raw=true" width="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5221.JPG?raw=true" width="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5222.JPG?raw=true" width="200">
