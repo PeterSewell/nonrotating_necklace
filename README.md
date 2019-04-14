@@ -23,7 +23,7 @@ North, East, South, and West.  The coloured blobs thus stay
 more-or-less stable as the wearer rotates - interestingly contrary to
 one's usual expectation that the two would rotate together.  It's
 intended for dancers - aiming to accentuate dance movement, be
-moderately eye-catching, and be intruiging, but not to be excessively
+moderately eye-catching, and be intriguing, but not to be excessively
 obtrusive.
 
 
