@@ -12,12 +12,24 @@
 This <em>non-rotating necklace</em> uses sensors to determine its orientation with respect to magnetic North and illuminates four coloured blobs (on a circular LED strip) at the four cardinal points: North, East, South, and West.  The coloured blobs thus stay more-or-less stable as the wearer rotates - contrary to one's usual expectation that the two would rotate together. 
 
 Additionally: 
-- each coloured blobs slowly changes colour, following a random walk in a region of colour space;
+- each coloured blob slowly changes colour, following a random walk in a region of colour space;
 - the light intensity is scaled with the wearer's rotation speed, becoming brighter if they spin;
 - each blob is actually a (mild) colour gradient, not a uniform colour, and the direction of the gradient flips depending on whether the wearer is rotating clockwise or anticlockwise;
 - the sensor data and reconstructed angle can be sent by short-range radio to a receiver, to be displayed live or recorded on a laptop. 
 
+## The hardware
 
+- a [Sparkfun Pro Micro 3.3v/8MHz Arduino](https://www.sparkfun.com/products/12587) processor (much cheaper clones are available);
+- an MPU-9150 board, containing a three-axis accelerometer, gyroscope, and magnetometer
+- an nRF24L01P+ 2.4Gz Transceiver board, for short-range radio
+
+
+
+
+- a Fenix ARB-L16-700U 3.6v 700mAh Li-ion battery, with built-in micro-USB charging socket
+
+
+https://cpc.farnell.com/eao/09-03290-01/slide-switch-spdt-vert/dp/SW03106?CMP=TREML007-005
 
 
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5212.JPG?raw=true" width="200">
