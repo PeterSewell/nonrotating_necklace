@@ -37,20 +37,27 @@ The first three are wired up so they fold into a tight package (insulated with t
 and then that and the battery are cable-tied to the necklace structure:
 <p>
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5244.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5245.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5248.JPG?raw=true" height="200">
 </p>
-See the [connections](connections.md).
+See the [connections](./connections.md).
 
 
 
 The necklace structure is a 500mm length of [Stainless Steel Knitted
 Wire Mesh Tubing - Hop Filter Mesh - 22mm Diameter (from The Mesh
 Company)](https://www.wireandstuff.co.uk/products/Hop-Filter-Mesh---Stainless-Steel-Knitted-Tubing---22mm-Width-79.html),
-with the ends reinforced with some 0.5 and 1.0mm stainless wire.
+with the ends reinforced with some 0.5 and 1.0mm stainless wire, and a
+hook from 2mm stainless wire.  The neopixel strip is just loose within
+this, insulated at the open end with clear tape, and held with a cable
+tie on its connecting wires at one end.
 
 The diffusing shell is a piece of silk satin, nominally white but
 actually cream coloured, cut from a 0.2m length from John Lewis (506
-10321 barcode 2986 9855).  Overall 580mm long, 130mm wide for 95mm, 97mm wide for the main part, 
-with a diagonal intermediate part, with fray-check solution applied to the edges before cutting. Hand-sewn into a tube 
+10321 barcode 2986 9855).  Overall 580mm long, 130mm wide for 95mm,
+97mm wide for the main part, with a diagonal intermediate part, with
+fray-check solution applied to the edges before cutting. Hand-sewn
+into a tube
 
 
 
@@ -68,9 +75,7 @@ with a diagonal intermediate part, with fray-check solution applied to the edges
 
 
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5231.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5245.JPG?raw=true" height="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5247.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5248.JPG?raw=true" height="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5264.JPG?raw=true" height="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" height="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5290.JPG?raw=true" height="200">
