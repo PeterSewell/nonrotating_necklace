@@ -9,7 +9,8 @@
 
 ## What is it?
 
-This <em>non-rotating necklace</em> uses sensors to determine its orientation with respect to magnetic North and illuminates four coloured blobs (on a circular LED strip) at the four cardinal points: North, East, South, and West.  The coloured blobs thus stay more-or-less stable as the wearer rotates - contrary to one's usual expectation that the two would rotate together. 
+This <em>non-rotating necklace</em> uses sensors to determine its orientation with respect to magnetic North and illuminates four coloured blobs (on a circular LED strip) at the four cardinal points: North, East, South, and West.  The coloured blobs thus stay more-or-less stable as the wearer rotates - interestingly contrary to one's usual expectation that the two would rotate together, especially during dance. 
+
 
 Additionally: 
 - each coloured blob slowly changes colour, following a random walk in a region of colour space;
@@ -98,11 +99,23 @@ Power consumption is not notably affected by whether the radio is used.
 
 ### Radio
 
+One can see the sensor and orientation estimate data simply by
+printing it to the Arduino serial link, but it's much more convenient
+to be able to do this wirelessly.  The nRF24L01P+ transceiver gives a
+cheap and easy way to do this, sending 32-byte packets to a similar
+receiver attached to another Arduino, itself connected via USB to a
+laptop.
 
-nRF24L01P+ 2.4Gz Transceiver board
 
+### Client
 
-###
+<em>Visualising</em> the data is essential for development, and also
+ interesting to see the sensor properties and the quantitivae
+ parameters of movement in use.  The client software is a simple
+ application that reads the incoming data from a serial device (either
+ directly connected to the necklace USB, or indirectly via the radio
+ and a receiving Arduino), and uses gnuplot to draw various graphs
+ dynamically.  It can also record and replay data streams. 
 
 
 
