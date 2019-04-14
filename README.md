@@ -20,6 +20,8 @@ Additionally:
 
 ## How it works
 
+### Orientation estimation
+
 The sensors measure the current linear acceleration, gyroscope
 rotation rate, and magnetic field, each in three axes.  
 
@@ -29,7 +31,9 @@ of the wearer's shoulders.  In normal use, as the wearer moves, the
 acceleration vector is dominated by gravity.  To estimate which way is
 up, in the device reference frame, we take a smoothed
 (low-pass-filtered) version of the acceleration data.  We project the
-gyroscope and magnetic field data onto this horizontal plane.
+gyroscope and magnetic field data onto this horizontal plane, which
+also greatly simplifies the mathematics and computation needed,
+compared to the general 3d orientation estimation problem.
 
 The magnetic field data gives an absolute orientation with respect to
 the Earth's magnetic field, but with a very noisy signal.  On the
@@ -41,6 +45,8 @@ empirically to balance reducing jitter from the magnetometer noise
 against giving a fast response to quick rotation.  Additionally, when
 the angular rotation rate is small (less than two pixels/second), we
 smooth the resulting orientation estimate.
+
+### Display
 
 Meanwhile, each cardinal-point region of LEDs has a base colour from a
 random walk within a fixed RGB cuboid.  Each random walk has a current
@@ -55,6 +61,17 @@ is flipped based on the direction of rotation (to give a mild visual
 highlight to changes of rotation direction), slightly offset from zero
 to avoid flicker at rest.  The regions have brightness scaled by the
 angular velocity (above 0.2 rad/s).
+
+The refresh rate, for a main loop including reading the sensor data,
+computing the orientation estimate, and refreshing the display, is a
+comfortable 40-50 Hz.  Reading the magnetometer data takes a long time
+(around 21ms) and is not needed at high frequency, so is only done
+once every four cycles.  Printing data to the serial link slows this
+down considerably, while sending data over the radio link has little
+effect.
+
+
+### Power
 
 Power is from a Fenix ARB-L16-700U 3.6v 700mAh Li-ion battery, which
 conveniently has a built-in micro-USB charging socket - so the
@@ -71,10 +88,15 @@ tiny battery life - but that would also be uncomfortably bright for
 non-daytime use.  Measured power, running on the battery, is around
 65mA before the neopixels start up, 85mA steady state, and up to 220mA when
 rotating.  That should give battery life of 3 to 8 hours.
+Power consumption is not notably affected by whether the radio is used. 
 
-The refresh rate is around 40-50 Hz.  Reading the magnetometer data takes
-a long time (around 21ms) and is not needed at high frequency, so is
-only done once every four cycles.  Printing data to the serial link slows this down considerably. 
+
+### Radio
+
+
+nRF24L01P+ 2.4Gz Transceiver board
+
+
 
 
 ## The hardware
