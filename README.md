@@ -19,30 +19,34 @@ Additionally:
 
 ## The hardware
 
+The electronics consists of:
 - a [Sparkfun Pro Micro 3.3v/8MHz Arduino](https://www.sparkfun.com/products/12587) processor (much cheaper clones are available);
 - an MPU-9150 board, containing a three-axis accelerometer, gyroscope, and magnetometer
 - an nRF24L01P+ 2.4Gz Transceiver board, for short-range radio
-
-
-
-
 - a Fenix ARB-L16-700U 3.6v 700mAh Li-ion battery, with built-in micro-USB charging socket
+The first three are wired up so they fold into a tight package (insulated with tape):
+<p>
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5212.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5221.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5222.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5244.JPG?raw=true" height="200">
+</p>
+
+
+
 
 
 https://cpc.farnell.com/eao/09-03290-01/slide-switch-spdt-vert/dp/SW03106?CMP=TREML007-005
 
 
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5212.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5221.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5222.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5231.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5244.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5245.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5247.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5248.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5264.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" width="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5290.JPG?raw=true" width="200">
+
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5231.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5245.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5247.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5248.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5264.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5290.JPG?raw=true" height="200">
 
 
 
