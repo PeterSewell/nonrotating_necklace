@@ -59,6 +59,11 @@ linear with respect to the actual North angle, as one can see in the
 second video above, but in practice it's pretty good, as one can see
 in the first video above.
 
+Sample graphs from a double spin are below.
+
+<p>
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/grapns.png?raw=true" height="400">
+</p>
 
 ### Display
 
