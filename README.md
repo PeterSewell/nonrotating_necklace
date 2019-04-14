@@ -8,6 +8,9 @@
 
 <p>
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" height="190">
+
+
+<img src="https://www.youtube.com/watch?v=8gVy3Wga34s&feature=youtu.be" height="190">
 </p>
 
 
