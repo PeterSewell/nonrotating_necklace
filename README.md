@@ -22,7 +22,7 @@ Additionally:
 The electronics consists of:
 - a [Sparkfun Pro Micro 3.3v/8MHz Arduino](https://www.sparkfun.com/products/12587) processor (much cheaper clones are available);
 - an MPU-9150 board, containing a three-axis accelerometer, gyroscope, and magnetometer;
-- an nRF24L01P+ 2.4Gz Transceiver board, for short-range radio; and
+- an nRF24L01P+ 2.4Gz Transceiver board, for short-range radio; 
 - half an [Adafruit NeoPixel Digital RGB LED Strip 144 LED - 1m White](https://www.adafruit.com/product/1507), ie 72 pixels; and
 - a Fenix ARB-L16-700U 3.6v 700mAh Li-ion battery, with built-in micro-USB charging socket.
 
@@ -34,6 +34,10 @@ The first three are wired up so they fold into a tight package (insulated with t
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5222.JPG?raw=true" height="200">
 </p>
 
+and then that and the battery are cable-tied to the necklace structure:
+<p>
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5244.JPG?raw=true" height="200">
+</p>
 See the [connections](connections.md).
 
 
@@ -47,8 +51,8 @@ See the [connections](connections.md).
 
 
 
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5244.JPG?raw=true" height="200">
-</p>
+
+
 
 
 
