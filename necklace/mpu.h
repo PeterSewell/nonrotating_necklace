@@ -107,8 +107,8 @@ void initialise_mpu() {
 
   // Full-scale range of the gyro sensors:
   // 0 = +/- 250 degrees/sec, 1 = +/- 500 degrees/sec, 2 = +/- 1000 degrees/sec, 3 = +/- 2000 degrees/sec
-  mpu.setFullScaleGyroRange(2); // set gyro range to 500 degrees/sec
-  #define gyro_range 1000.0f
+  mpu.setFullScaleGyroRange(2); 
+  #define gyro_range 1000.0f /* degrees/sec */
   // PS: it seemed to clip with reasonable tango dance motion at 250 degrees/sec
 
   // Full-scale accelerometer range.
