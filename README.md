@@ -16,7 +16,15 @@
 
 ## What is it?
 
-This <em>non-rotating necklace</em> uses sensors to determine its orientation with respect to magnetic North and illuminates four coloured blobs (on a circular LED strip) at the four cardinal points: North, East, South, and West.  The coloured blobs thus stay more-or-less stable as the wearer rotates - interestingly contrary to one's usual expectation that the two would rotate together, and especially accentuating dance movement. 
+This <em>non-rotating necklace</em> uses sensors to determine its
+orientation with respect to magnetic North and illuminates four
+coloured blobs (on a circular LED strip) at the four cardinal points:
+North, East, South, and West.  The coloured blobs thus stay
+more-or-less stable as the wearer rotates - interestingly contrary to
+one's usual expectation that the two would rotate together.  It's
+intended for dancers - aiming to accentuate dance movement, be
+moderately eye-catching, and be intruiging, but not to be excessively
+obtrusive.
 
 
 Additionally: 
@@ -64,6 +72,20 @@ Sample graphs from a double spin are below.
 <p>
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/graphs.png?raw=true" height="400">
 </p>
+
+
+Calibrating the sensors is important.  The magnetometer is calibrating
+by finding the maximum and minimum reachable values for each axis,
+using a 30-sample rolling mean (probably this could be improved, and
+poor calibration may well be responsible for the non-linearity of the
+result).  The gyro zero offset for each axis is automatically
+re-calibrated whenever the device seems to be at rest (comparing all
+the raw sensor values against a rolling window). If this is within the
+first 20s of startup, it blinks eight LEDs white.  The gyro max range
+is set to 1000 degrees/s (less was not enough for fast spins), and the
+accelerometer range to 2g.
+
+
 
 ### Display
 
@@ -135,6 +157,10 @@ laptop.
  and a receiving Arduino), and uses gnuplot to draw various graphs
  dynamically.  It can also record and replay data streams. 
 
+
+### Libraries
+
+The main Arduino libraries used are [MPU6050](https://github.com/sparkfun/MPU-9150_Breakout) for the MPU9150, Adafruit_NeoPixel-master, [RF24](http://maniacbug.github.com/RF24), and I2Cdev.   The first included Madgewick and Mahoney orientation estimation code, but they seemed to work less well (for this constrained application) than the scheme above. 
 
 
 ## The hardware
