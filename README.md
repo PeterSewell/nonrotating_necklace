@@ -57,7 +57,10 @@ actually cream coloured, cut from a 0.2m length from John Lewis (506
 10321 barcode 2986 9855).  Overall 580mm long, 130mm wide for 95mm,
 97mm wide for the main part, with a diagonal intermediate part, with
 fray-check solution applied to the edges before cutting. Hand-sewn
-into a tube
+into a tube.  We tried various other diffusers, including other John
+Lewis fabrics and Rosco quiet light grid cloth (E462) (which looks
+promising but is only sold in long rolls); this is a good balance
+between diffusion and light loss, and feels good on the skin.
 
 
 
