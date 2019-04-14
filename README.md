@@ -24,7 +24,9 @@ The electronics consists of:
 - an MPU-9150 board, containing a three-axis accelerometer, gyroscope, and magnetometer
 - an nRF24L01P+ 2.4Gz Transceiver board, for short-range radio
 - a Fenix ARB-L16-700U 3.6v 700mAh Li-ion battery, with built-in micro-USB charging socket
+
 The first three are wired up so they fold into a tight package (insulated with tape):
+
 <p>
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5212.JPG?raw=true" height="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5221.JPG?raw=true" height="200">
