@@ -62,7 +62,7 @@ in the first video above.
 Sample graphs from a double spin are below.
 
 <p>
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/grapns.png?raw=true" height="400">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/graphs.png?raw=true" height="400">
 </p>
 
 ### Display
