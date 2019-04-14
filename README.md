@@ -6,10 +6,15 @@
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5261.optimised.gif?raw=true" height="200">
 </p>
 
+<p>
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5231.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5247.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" height="200">
+</p>
 
 ## What is it?
 
-This <em>non-rotating necklace</em> uses sensors to determine its orientation with respect to magnetic North and illuminates four coloured blobs (on a circular LED strip) at the four cardinal points: North, East, South, and West.  The coloured blobs thus stay more-or-less stable as the wearer rotates - interestingly contrary to one's usual expectation that the two would rotate together, especially during dance. 
+This <em>non-rotating necklace</em> uses sensors to determine its orientation with respect to magnetic North and illuminates four coloured blobs (on a circular LED strip) at the four cardinal points: North, East, South, and West.  The coloured blobs thus stay more-or-less stable as the wearer rotates - interestingly contrary to one's usual expectation that the two would rotate together, and especially accentuating dance movement. 
 
 
 Additionally: 
@@ -179,11 +184,6 @@ between diffusion and light loss, and feels good on the skin.
 
 
 
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5231.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5247.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5264.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5290.JPG?raw=true" height="200">
 
 
 
