@@ -42,6 +42,17 @@ See the [connections](connections.md).
 
 
 
+The necklace structure is a 500mm length of [Stainless Steel Knitted
+Wire Mesh Tubing - Hop Filter Mesh - 22mm Diameter (from The Mesh
+Company)](https://www.wireandstuff.co.uk/products/Hop-Filter-Mesh---Stainless-Steel-Knitted-Tubing---22mm-Width-79.html),
+with the ends reinforced with some 0.5 and 1.0mm stainless wire.
+
+The diffusing shell is a piece of silk satin, nominally white but
+actually cream coloured, cut from a 0.2m length from John Lewis (506
+10321 barcode 2986 9855).  Overall 580mm long, 130mm wide for 95mm, 97mm wide for the main part, 
+with a diagonal intermediate part, with fray-check solution applied to the edges before cutting. Hand-sewn into a tube 
+
+
 
 
 
