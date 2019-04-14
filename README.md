@@ -88,7 +88,7 @@ light, it's visible but rather subdued.
 
 The refresh rate, for a main loop including reading the sensor data,
 computing the orientation estimate, and refreshing the display, is a
-comfortable 40-50 Hz.  Reading the magnetometer data takes a long time
+comfortable 50 Hz.  Reading the magnetometer data takes a long time
 (around 21ms) and is not needed at high frequency, so is only done
 once every four cycles.  Printing data to the serial link slows this
 down considerably, while sending data over the radio link has little
