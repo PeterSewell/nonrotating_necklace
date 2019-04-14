@@ -17,6 +17,66 @@ Additionally:
 - each blob is actually a (mild) colour gradient, not a uniform colour, and the direction of the gradient flips depending on whether the wearer is rotating clockwise or anticlockwise;
 - the sensor data and reconstructed angle can be sent by short-range radio to a receiver, to be displayed live or recorded on a laptop. 
 
+
+## How it works
+
+The sensors measure the current linear acceleration, gyroscope
+rotation rate, and magnetic field, each in three axes.  
+
+We assume the wearer will be largely vertical, with the necklace not
+necessarily horizontal, but more-or-less stable in the reference frame
+of the wearer's shoulders.  In normal use, as the wearer moves, the
+acceleration vector is dominated by gravity.  To estimate which way is
+up, in the device reference frame, we take a smoothed
+(low-pass-filtered) version of the acceleration data.  We project the
+gyroscope and magnetic field data onto this horizontal plane.
+
+The magnetic field data gives an absolute orientation with respect to
+the Earth's magnetic field, but with a very noisy signal.  On the
+other hand, the gyroscope gives reasonably good data about the
+rotation rate, which one can integrate to get an orientation estimate,
+but it will tend to drift with time as errors accumulate.  We fuse the
+two with a complementary filter, choosing the time constant
+empirically to balance reducing jitter from the magnetometer noise
+against giving a fast response to quick rotation.  Additionally, when
+the angular rotation rate is small (less than two pixels/second), we
+smooth the resulting orientation estimate.
+
+Meanwhile, each cardinal-point region of LEDs has a base colour from a
+random walk within a fixed RGB cuboid.  Each random walk has a current
+position, velocity, and duration (in cycles). When the duration
+reaches 0, a new random velocity is chosen. The walk bounces off the
+internal faces of the RGB cuboid.  Each region is three pixels wide,
+anti-aliased onto four pixels of the strip.  One end is the base
+colour, and subsequent pixels are shifted by a factor of the current
+pixel colour velocity - this gives each region a slowly changing
+colour and a slowly changing colour gradient.  The gradient direction
+is flipped based on the direction of rotation (to give a mild visual
+highlight to changes of rotation direction), slightly offset from zero
+to avoid flicker at rest.  The regions have brightness scaled by the
+angular velocity (above 0.2 rad/s).
+
+Power is from a Fenix ARB-L16-700U 3.6v 700mAh Li-ion battery, which
+conveniently has a built-in micro-USB charging socket - so the
+necklace can connected either to the battery or to the Pro Micro
+micro-USB socket (but not both at once!).  Power to the neopixel strip
+is taken from the Pro Micro regulated power, which will be less
+efficient than the battery supply, but makes it conveniently
+comparable when connected to the 5v micro-USB supply.  Adafruit
+estimate around 20mA per full-brightness single-colour pixel, at 5v,
+but the measured power here is much less, around 8mA per full-scale
+single-colour pixel.  Running all pixels full-power would still vastly
+exceed the Pro Micro regulator (1730mA vs 500mA max), and also give
+tiny battery life - but that would also be uncomfortably bright for
+non-daytime use.  Measured power, running on the battery, is around
+65mA before the neopixels start up, 85mA steady state, and up to 220mA when
+rotating.  That should give battery life of 3 to 8 hours.
+
+The refresh rate is around 40-50 Hz.  Reading the magnetometer data takes
+a long time (around 21ms) and is not needed at high frequency, so is
+only done once every four cycles.  Printing data to the serial link slows this down considerably. 
+
+
 ## The hardware
 
 The electronics consists of:
