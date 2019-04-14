@@ -8,9 +8,7 @@
 
 <p>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8gVy3Wga34s/0.jpg)](https://www.youtube.com/watch?v=8gVy3Wga34s)
-
-
+<a href="https://www.youtube.com/watch?v=IaP30llPFIw"> <img src="https://img.youtube.com/vi/IaP30llPFIw/0.jpg" width="200"></a>
 
 
 
