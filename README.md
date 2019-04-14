@@ -62,6 +62,11 @@ highlight to changes of rotation direction), slightly offset from zero
 to avoid flicker at rest.  The regions have brightness scaled by the
 angular velocity (above 0.2 rad/s).
 
+The overall brightness is good for normal or dim artificial lighting;
+clearly visible but not dazzling, and well-diffused without the
+individual pixel LED points being obtrusive.  In overcast outdoor
+light, it's visible but rather subdued.
+
 The refresh rate, for a main loop including reading the sensor data,
 computing the orientation estimate, and refreshing the display, is a
 comfortable 40-50 Hz.  Reading the magnetometer data takes a long time
@@ -96,6 +101,8 @@ Power consumption is not notably affected by whether the radio is used.
 
 nRF24L01P+ 2.4Gz Transceiver board
 
+
+###
 
 
 
