@@ -8,9 +8,10 @@
 
 <p>
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5231.JPG?raw=true" height="200">
-<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5247.JPG?raw=true" height="200">
+<img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5264.JPG?raw=true" height="200">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" height="200">
 </p>
+
 
 ## What is it?
 
@@ -168,7 +169,6 @@ into a tube.  We tried various other diffusers, including other John
 Lewis fabrics and Rosco quiet light grid cloth (E462) (which looks
 promising but is only sold in long rolls); this is a good balance
 between diffusion and light loss, and feels good on the skin.
-
 
 
 
