@@ -7,19 +7,13 @@
 </p>
 
 <p>
-
 <a href="https://www.youtube.com/watch?v=IaP30llPFIw"> <img src="https://img.youtube.com/vi/IaP30llPFIw/0.jpg" width="200"></a>
-
-
 <a href="https://www.youtube.com/watch?v=IoB9dHuYMfw"> <img src="https://img.youtube.com/vi/IoB9dHuYMfw/0.jpg" width="200"></a>
-
 <a href="https://www.youtube.com/watch?v=KBAF5p-tX-A"> <img src="https://img.youtube.com/vi/KBAF5p-tX-A/0.jpg" width="200"></a>
+</p>
 
+<p>
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5271.JPG?raw=true" height="190">
-
-
-
-<img src="https://www.youtube.com/watch?v=8gVy3Wga34s&feature=youtu.be" height="190">
 </p>
 
 
