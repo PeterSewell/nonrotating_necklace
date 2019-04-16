@@ -186,7 +186,10 @@ and then that and the battery are cable-tied to the necklace structure:
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5245.JPG?raw=true" width="250">
 <img src="https://github.com/PeterSewell/nonrotating_necklace/blob/master/media/DSD_5248.JPG?raw=true" width="250">
 </p>
-See <code>connections.md</code> for the wiring. 
+
+<p>
+See <code>connections.md</code> for the wiring and <code>parts.md</code> for a list of all the parts.
+</p>
 
 
 
