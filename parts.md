@@ -1,4 +1,4 @@
-All the parts:
+All the parts, for the necklace:
 
 - a [Sparkfun Pro Micro 3.3v/8MHz Arduino](https://www.sparkfun.com/products/12587) processor (much cheaper clones are available);
 - an MPU-9150 board, containing a three-axis accelerometer, gyroscope, and magnetometer;
@@ -21,3 +21,9 @@ All the parts:
 - a resistor (approx 500 ohm) in series with the Neopixel data connection
 - a three-pin JST plug and socket for the neopixel strip
 - two scraps of thin copper to make battery connectors from
+
+Then for the radio receiver:
+- another Pro Micro
+- another nRF24L01P+
+
+A USB extension lead is also handy.
