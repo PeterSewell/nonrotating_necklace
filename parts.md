@@ -15,15 +15,15 @@ All the parts, for the necklace:
 - 1.5mm heatshrink
 - cable ties
 - a [switch](https://cpc.farnell.com/eao/09-03290-01/slide-switch-spdt-vert/dp/SW03106?CMP=TREML007-005)
-- a two-pin JST plug and socket for the battery
+- a two-pin JST-PH plug and socket for the battery
 - straight male and female headers, for auxiliary connectors to the battery and neopixel strip (not really needed)
 - a small piece of stripboard, to distribute Vcc and Gnd
 - a resistor (approx 500 ohm) in series with the Neopixel data connection
-- a three-pin JST plug and socket for the neopixel strip
+- a three-pin JST-SM plug and socket for the neopixel strip
 - two scraps of thin copper to make battery connectors from
 
 Then for the radio receiver:
 - another Pro Micro
 - another nRF24L01P+
 
-A USB extension lead is also handy.
+A USB extension lead is also handy.   And some kind of ad-hoc turntable, for testing. 
